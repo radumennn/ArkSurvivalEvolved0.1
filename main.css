@@ -24,9 +24,6 @@ body{
     /*background-position: 5% ; */
     
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 div {
@@ -36,9 +33,6 @@ div {
     margin: 25px;
     padding: 30px;
     
-    background-image: url(/img/snow.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -115,6 +109,12 @@ margin: -5px;
 
 }
 
+.art{
+    background-image: url(/img/snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 nav ul{
 
@@ -140,9 +140,4 @@ nav ul li a:hover{
     color: black;
     /*border-bottom: 5px solid black*/
 }
-.art{
-    background-image: url(/img/snow.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
