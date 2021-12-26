@@ -35,6 +35,11 @@ div {
     background-color: rgb(202, 202, 202);
     margin: 25px;
     padding: 30px;
+    
+    background-image: url(/img/snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .wrapper{
